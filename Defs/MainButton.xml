@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>ASPD_Diary</defName>
+    <label>Дневник</label>
+    <description>Дневники пешек и исходные события игры.</description>
+    <tabWindowClass>SimplePawnDiary.MainTabWindow_Diary</tabWindowClass>
+    <order>95</order>
+  </MainButtonDef>
+</Defs>

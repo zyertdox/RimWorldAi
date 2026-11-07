@@ -1,0 +1,23 @@
+# Generated assemblies and test runners
+/Assemblies/
+/Build/
+**/bin/
+**/obj/
+/Tests/*.dll
+/Tests/*.pdb
+/Tests/*.exe
+/Tests/*.runtimeconfig.json
+/Tests/Verification.txt
+
+# Local installation state, backups and logs
+/Backups/
+/Installation.json
+*.log
+
+# Local editor and operating system files
+/.idea/
+/.vs/
+*.user
+*.suo
+Thumbs.db
+.DS_Store

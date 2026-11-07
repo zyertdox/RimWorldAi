@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Простой дневник</name>
+  <author>Andrei</author>
+  <packageId>andrei.simplepawndiary</packageId>
+  <modVersion>0.1.0</modVersion>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <description>Самостоятельный мод: хранит копии штатных социальных, боевых и архивных записей игры и по кнопке создаёт русский дневник выбранной пешки. Первая запись использует всю доступную историю; следующие — события после предыдущей успешной генерации. Без автоматической генерации, ИИ-памяти и собственных типов событий. Не требует RimTalk, Diary, Expand Memory или Interaction Bubbles. Для генерации нужен совместимый с OpenAI Chat Completions сервер; по умолчанию используется локальный мост.</description>
+  <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName></li></modDependencies>
+  <loadAfter><li>brrainz.harmony</li><li>cj.rimtalk</li></loadAfter>
+</ModMetaData>
